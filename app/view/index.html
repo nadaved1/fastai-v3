@@ -3,13 +3,17 @@
   <meta charset='utf-8'>
   <link rel='stylesheet' href='../static/style.css'>
   <script src='../static/client.js'></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div>
   <div class='center'>
-    <div class='title'>Is This A Mess ?</div>
+    <div class='title'><h1>Is This A Mess ?</h1></div>
     <p style="font-size:200%;">
-      Use images of a <strong>MESSY</strong> room or a <strong>TIDY</strong> room!
+      Choose a <strong>MESSY</strong> room or a <strong>TIDY</strong> room image!
     </p>
     <div class='content'>
       <div class='no-display'>
@@ -22,7 +26,7 @@
       </div>
       <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
       <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
+        <label id='upload-label' style="font-size:150%;">No file chosen</label>
       </div>
       <div>
         <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
